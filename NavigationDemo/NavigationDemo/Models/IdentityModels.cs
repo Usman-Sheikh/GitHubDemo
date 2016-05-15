@@ -29,5 +29,7 @@ namespace NavigationDemo.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<NavigationDemo.Models.Employee> Employees { get; set; }
     }
 }
